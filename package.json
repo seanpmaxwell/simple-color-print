@@ -20,5 +20,9 @@
     "node"
   ],
   "author": "sean maxwell",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "util": "^0.11.0"
+  }
 }
