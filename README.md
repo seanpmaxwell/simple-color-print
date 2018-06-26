@@ -3,6 +3,9 @@
 Prints out different colors to the console. Use this for console printing in the backend. It also
 prints out the full object so you don't end up with "[Object object]".
 
+created by Sean Maxwell June 25, 2018
+
+
 - `cerr('hello world')` <-- prints red
 
 - `cinfo('hello world')` <-- prints green

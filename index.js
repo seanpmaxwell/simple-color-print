@@ -3,6 +3,8 @@
  *
  * Prints out different colors to the console. Use this for
  * console printing in the backend.
+ *
+ * created by Sean Maxwell June 25, 2018
  *************************************************************/
 
 
