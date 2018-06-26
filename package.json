@@ -1,0 +1,24 @@
+{
+  "name": "simple-color-print",
+  "version": "1.0.0",
+  "description": "Print to the console in different colors and fully print objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanpmaxwell/simple-color-print/tree/master"
+  },
+  "keywords": [
+    "simple",
+    "print",
+    "console",
+    "log",
+    "color",
+    "colors",
+    "node"
+  ],
+  "author": "sean maxwell",
+  "license": "GPL-3.0-or-later"
+}
