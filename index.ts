@@ -1,4 +1,3 @@
-"use strict";
 /*************************************************************
  *                  Simple Color Printer
  *
@@ -10,29 +9,35 @@
  *
  * !!TYPESCRIPT SUPPORT ADDED!! Aug 16, 2018
  *************************************************************/
-Object.defineProperty(exports, "__esModule", { value: true });
-var colors = require("colors/safe");
-var util = require("util");
+
+import * as colors from 'colors/safe';
+import * as util from 'util';
+
+
 colors.setTheme({
     important: [
         'cyan',
         'underline'
     ]
 });
-function cerr(content) {
+
+
+export function cerr(content: any)
+{
     console.error(colors.red(util.inspect(content)));
 }
-exports.cerr = cerr;
-function cinfo(content) {
+
+export function cinfo(content: any)
+{
     console.info(colors.green(util.inspect(content)));
 }
-exports.cinfo = cinfo;
-function cwarn(content) {
+
+export function cwarn(content: any)
+{
     console.warn(colors.yellow(util.inspect(content)));
 }
-exports.cwarn = cwarn;
-function cimp(content) {
-    console.log(colors.important(util.inspect(content)));
+
+export function cimp(content: any)
+{
+    console.log((<any>colors).important(util.inspect(content)));
 }
-exports.cimp = cimp;
-//# sourceMappingURL=index.js.map

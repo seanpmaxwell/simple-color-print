@@ -1,9 +1,10 @@
 # simple-color-print
 
 Prints out different colors to the console. Use this for console printing in the backend. It also
-prints out the full object so you don't end up with "[Object object]".
+prints out the full object so you don't end up with "[Object object]". Also includes TypeScript declaration
+file. 
 
-created by Sean Maxwell June 25, 2018
+created by Sean Maxwell June 25, 2018.
 
 
 - `cerr('hello world')` <-- prints red
