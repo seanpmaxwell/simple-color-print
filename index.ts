@@ -10,9 +10,8 @@
  * !!TYPESCRIPT SUPPORT ADDED!! Aug 16, 2018
  *************************************************************/
 
-import * as colors from 'colors/safe';
-import * as util from 'util';
-
+import * as util   from 'util';
+import * as colors from 'colors'
 
 colors.setTheme({
     important: [
@@ -21,23 +20,18 @@ colors.setTheme({
     ]
 });
 
-
-export function cerr(content: any)
-{
+export function cerr(content: any): void {
     console.error(colors.red(util.inspect(content)));
 }
 
-export function cinfo(content: any)
-{
+export function cinfo(content: any): void {
     console.info(colors.green(util.inspect(content)));
 }
 
-export function cwarn(content: any)
-{
+export function cwarn(content: any): void {
     console.warn(colors.yellow(util.inspect(content)));
 }
 
-export function cimp(content: any)
-{
+export function cimp(content: any): void {
     console.log((<any>colors).important(util.inspect(content)));
 }

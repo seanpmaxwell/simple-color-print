@@ -1,6 +1,6 @@
 {
   "name": "simple-color-print",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Print to the console in different colors and fully print objects",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,11 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.3.0",
+    "npm": "^6.5.0",
     "util": "^0.11.0"
   },
-  "homepage": "https://github.com/seanpmaxwell/simple-color-print#readme"
+  "homepage": "https://github.com/seanpmaxwell/simple-color-print#readme",
+  "devDependencies": {
+    "@types/colors": "^1.2.1"
+  }
 }

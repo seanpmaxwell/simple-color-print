@@ -21,10 +21,9 @@ TypeScript example:
 ```typescript
 import { cerr, cinfo, cwarn, cimp } from 'simple-color-print'
 
-if(err) { 
+if (err) {
     cerr(err) 
-}
-else if(info) {
+} else if (info) {
     cinfo(info)
 }
 ```
@@ -35,10 +34,9 @@ else if(info) {
 ```javascript
 let scp = require('simple-color-print')
 
-if(warning) {
+if (warning) {
     scp.cwarn(warn)
-} 
-else if(info) {
+} else if (info) {
     scp.cimp('All is well!')
 }
 ```
