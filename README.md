@@ -19,12 +19,12 @@ created by Sean Maxwell June 25, 2018.
 TypeScript example: 
 
 ```typescript
-import { cerr, cinfo, cwarn, cimp } from 'simple-color-print'
+import { cerr, cinfo, cwarn, cimp } from 'simple-color-print';
 
 if (err) {
-    cerr(err) 
+    cerr(err);
 } else if (info) {
-    cinfo(info)
+    cinfo(info);
 }
 ```
 
@@ -32,12 +32,12 @@ if (err) {
 - JavaScript example: 
 
 ```javascript
-let scp = require('simple-color-print')
+let scp = require('simple-color-print');
 
 if (warning) {
-    scp.cwarn(warn)
+    scp.cwarn(warn);
 } else if (info) {
-    scp.cimp('All is well!')
+    scp.cimp('All is well!');
 }
 ```
 
