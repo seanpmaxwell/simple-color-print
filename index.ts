@@ -10,7 +10,7 @@
  * !!TYPESCRIPT SUPPORT ADDED!! Aug 16, 2018
  *************************************************************/
 
-import * as util   from 'util';
+import * as util from 'util';
 import * as colors from 'colors';
 
 
