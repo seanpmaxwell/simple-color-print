@@ -11,8 +11,7 @@
  *************************************************************/
 
 import * as util from 'util';
-import * as colors from 'colors';
-
+import * as colors from 'colors'
 
 colors.setTheme({
     important: [
@@ -22,17 +21,21 @@ colors.setTheme({
 });
 
 export function cerr(content: any): void {
-    console.error(colors.red(util.inspect(content)));
+    console.error(colors.red(ui(content)));
 }
 
 export function cinfo(content: any): void {
-    console.info(colors.green(util.inspect(content)));
+    console.info(colors.green(ui(content)));
 }
 
 export function cwarn(content: any): void {
-    console.warn(colors.yellow(util.inspect(content)));
+    console.warn(colors.yellow(ui(content)));
 }
 
 export function cimp(content: any): void {
-    console.log((<any>colors).important(util.inspect(content)));
+    console.log((<any>colors).important(ui(content)));
+}
+
+function ui(content: any): any {
+    return util.inspect(content);
 }
