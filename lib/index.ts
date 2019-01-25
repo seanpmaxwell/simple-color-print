@@ -10,8 +10,9 @@
  * !!TYPESCRIPT SUPPORT ADDED!! Aug 16, 2018
  *************************************************************/
 
-import * as util   from 'util';
-import * as colors from 'colors'
+import * as util from 'util';
+import * as colors from 'colors';
+
 
 colors.setTheme({
     important: [
