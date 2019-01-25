@@ -2,7 +2,8 @@
   "name": "simple-color-print",
   "version": "1.0.5",
   "description": "Print to the console in different colors and fully print objects",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "test": "none"
   },
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/seanpmaxwell/simple-color-print#readme",
   "devDependencies": {
-    "@types/colors": "^1.2.1"
+    "@types/colors": "^1.2.1",
+    "@types/node": "^10.12.18"
   }
 }
