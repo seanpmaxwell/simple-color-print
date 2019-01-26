@@ -1,8 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/
 
+.idea/
 node_modules/
+
 package-lock.json
-index.js.map
+
 index.js
 index.d.ts

@@ -11,7 +11,8 @@
  *************************************************************/
 
 import * as util from 'util';
-import * as colors from 'colors'
+import * as colors from 'colors';
+
 
 colors.setTheme({
     important: [
