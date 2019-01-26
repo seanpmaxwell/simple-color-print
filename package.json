@@ -1,6 +1,6 @@
 {
   "name": "simple-color-print",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Print to the console in different colors and fully print objects",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
